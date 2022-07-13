@@ -1,0 +1,47 @@
+@charset "utf-8";
+body{
+    background-color: #EDEDED;
+    margin: 0;
+    
+}
+
+.menubar{
+    margin: 0;
+    display: block;
+    font-size: 25px;
+    font-family: fantasy,sans-serif;
+    color: #BBBBBE;
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 800px;
+    text-align: center;
+}
+.menubar_div{
+    height: 15%;
+}
+.list {
+    flex-direction: column;
+
+    
+}
+
+.list_a:hover{
+    font-size: 27px;
+    color: cadetblue;
+}
+.list_b:hover{
+    font-size: 27px;
+    color: cadetblue;
+}
+.list_c:hover{
+    font-size: 27px;
+    color: cadetblue;
+}
+.list_d:hover{
+    font-size: 27px;
+    color: cadetblue;
+}
+
+.list  {
+    list-style: none;
+}
